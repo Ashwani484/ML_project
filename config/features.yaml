@@ -1,0 +1,31 @@
+data_processing:
+  categorical_columns:
+  - Country
+  - Gender
+  - Cancer_Stage
+  - Family_History
+  - Smoking_History
+  - Alcohol_Consumption
+  - Obesity_BMI
+  - Diet_Risk
+  - Physical_Activity
+  - Diabetes
+  - Inflammatory_Bowel_Disease
+  - Genetic_Mutation
+  - Screening_History
+  - Early_Detection
+  - Treatment_Type
+  - Survival_5_years
+  - Mortality
+  - Urban_or_Rural
+  - Economic_Classification
+  - Healthcare_Access
+  - Insurance_Status
+  - Survival_Prediction
+  numerical_columns:
+  - Patient_ID
+  - Age
+  - Tumor_Size_mm
+  - Healthcare_Costs
+  - Incidence_Rate_per_100K
+  - Mortality_Rate_per_100K

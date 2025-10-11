@@ -1,0 +1,10 @@
+artifact_location: file:///D:/AI-Projects/ML-DL_Projects/CancerPrediction/CODE/mlruns/0/models/m-e88a9e2248344bf0a2b8b44840eea4e2/artifacts
+creation_timestamp: 1760189286461
+experiment_id: '0'
+last_updated_timestamp: 1760189299468
+model_id: m-e88a9e2248344bf0a2b8b44840eea4e2
+model_type: null
+name: model
+source_run_id: dce1008113ab4b9086b6fdfbf041c354
+status: 2
+status_message: null

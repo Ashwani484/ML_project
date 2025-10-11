@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/AI-Projects/ML-DL_Projects/CancerPrediction/CODE/mlruns/0/a811e34fd5af481eb5186c18648aa451/artifacts
+end_time: 1760191139447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a811e34fd5af481eb5186c18648aa451
+run_name: receptive-midge-471
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760190973006
+status: 3
+tags: []
+user_id: ashwa

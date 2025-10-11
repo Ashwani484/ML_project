@@ -1,0 +1,22 @@
+artifact_path: file:///D:/AI-Projects/ML-DL_Projects/CancerPrediction/CODE/mlruns/0/models/m-e88a9e2248344bf0a2b8b44840eea4e2/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-e88a9e2248344bf0a2b8b44840eea4e2
+model_size_bytes: 593884
+model_uuid: m-e88a9e2248344bf0a2b8b44840eea4e2
+prompts: null
+run_id: dce1008113ab4b9086b6fdfbf041c354
+utc_time_created: '2025-10-11 13:28:06.563225'

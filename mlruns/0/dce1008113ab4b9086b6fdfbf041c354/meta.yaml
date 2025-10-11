@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/AI-Projects/ML-DL_Projects/CancerPrediction/CODE/mlruns/0/dce1008113ab4b9086b6fdfbf041c354/artifacts
+end_time: 1760189299837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dce1008113ab4b9086b6fdfbf041c354
+run_name: dapper-auk-739
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760189122378
+status: 3
+tags: []
+user_id: ashwa

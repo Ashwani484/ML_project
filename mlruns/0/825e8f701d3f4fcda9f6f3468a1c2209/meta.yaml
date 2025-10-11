@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/AI-Projects/ML-DL_Projects/CancerPrediction/CODE/mlruns/0/825e8f701d3f4fcda9f6f3468a1c2209/artifacts
+end_time: 1760191847241
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 825e8f701d3f4fcda9f6f3468a1c2209
+run_name: beautiful-steed-566
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760191523899
+status: 3
+tags: []
+user_id: ashwa

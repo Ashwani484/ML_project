@@ -1,0 +1,52 @@
+# artifacts.yml
+
+data_ingestion:
+  bucket_name: AKS_bucket9789
+  bucket_file_name: Ashwani shukla
+  train_ratio: 0.8
+  test_ratio: 0.2
+  skewness_threshold: 5
+  no_of_features: 5
+# -------------------------------------------------------------
+# 2. Feature Engineering & Selection
+
+# -------------------------------------------------------------
+# 2.1 Specifying the output features
+
+output_feature: "Survival_Prediction"
+# -------------------------------------------------------------
+# 2.2 Features to be dropped
+feature_engineering:
+  features_to_drop:
+    - "Patient_ID"
+    - "Economic_Classification"
+    - "Insurance_Status"
+    
+
+# -------------------------------------------------------------
+# 3. Missing Value Handling (mean, median, mode, KNN, MICE)
+
+# -------------------------------------------------------------
+missing_value_handling:
+  numerical_imputation:
+    strategy: "median"
+
+
+  categorical_imputation:
+    strategy: "most_frequent"
+
+
+# -------------------------------------------------------------
+# 4. Categorical Feature Encoding (OneHotEncoder, LabelEncoder, OrdinalEncoder)
+# Specify the single encoding technique to be used for all categorical columns.
+# -------------------------------------------------------------
+encoding:
+  encoder_type: 'LabelEncoder'
+
+# -------------------------------------------------------------
+# 5. Numerical Feature Scaling (StandardScaler, MinMaxScaler, RobustScaler)
+
+# -------------------------------------------------------------
+numerical_scaling:
+  scaler: "StandardScaler"
+
